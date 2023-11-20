@@ -1,0 +1,36 @@
+
+
+.category_heading {
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 50px 0 10px 40px;
+    max-height: 5em;
+    font-weight: 700;
+}
+.category_items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.category_sale{
+    display: inline-flex;
+    margin: 0 auto;
+}
+
+.sale_item {
+    margin-top: 15px;
+    width: 250px;
+}
+.sale_cate{
+    padding-left: 60px;
+    padding-right: 30px;
+    margin: 0 auto;
+    width: 240px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    display: block;
+}
